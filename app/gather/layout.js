@@ -9,6 +9,10 @@ const Layout = ({ children }) => {
         strategy="beforeInteractive"
       />
       <Script
+        src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"
+        strategy="beforeInteractive"
+      />
+      <Script
         src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"
         strategy="beforeInteractive"
       />

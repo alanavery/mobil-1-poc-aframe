@@ -1,0 +1,66 @@
+.main {
+  width: 100%;
+  height: 100%;
+  font-size: 6vw;
+}
+
+.guide {
+  position: fixed;
+  height: 90vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+}
+
+.guide > path {
+  fill: cyan;
+}
+
+.dialogBox {
+  position: fixed;
+  display: flex;
+  width: 90vw;
+  height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  flex-direction: column;
+  row-gap: 1em;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1em;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.dialogBox > p {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+  align-items: center;
+}
+
+.button {
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: blue;
+  color: inherit;
+  font-size: 1em;
+  font-weight: inherit;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: darkblue;
+}
