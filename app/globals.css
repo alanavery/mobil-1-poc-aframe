@@ -1,0 +1,68 @@
+@keyframes scan-fade {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes match-slide {
+  from {
+    transform: translateX(-100%);
+  }
+
+  20% {
+    transform: translateX(0);
+  }
+
+  80% {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.notification {
+  position: fixed;
+  z-index: 20;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  animation-fill-mode: forwards;
+}
+
+.notification--scan {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: green;
+  animation-name: scan-fade;
+  animation-duration: 2s;
+}
+
+.notification--match {
+  top: 20px;
+  left: 0;
+  transform: translateX(-100%);
+  padding: 0.5em;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: blue;
+  line-height: 1;
+  animation-name: match-slide;
+  animation-duration: 4s;
+  white-space: nowrap;
+}
