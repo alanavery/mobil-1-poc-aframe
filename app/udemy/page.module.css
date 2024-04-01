@@ -1,0 +1,10 @@
+.video,
+.main canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video {
+  object-fit: cover;
+}
