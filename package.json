@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@azure-rest/ai-vision-image-analysis": "^1.0.0-beta.2",
+    "@azure/cognitiveservices-computervision": "^8.2.0",
+    "@azure/core-auth": "^1.7.1",
+    "@azure/ms-rest-azure-js": "^2.1.0",
     "@mapbox/node-pre-gyp": "^1.0.11",
+    "dotenv": "^16.4.5",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",

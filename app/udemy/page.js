@@ -17,6 +17,7 @@ const Page = () => {
       const material = new THREE.MeshBasicMaterial({ color: '#0000ff' });
       const cube = new THREE.Mesh(geometry, material);
 
+      // Add model to scene
       scene.add(cube);
 
       cube.position.set(0, 0, -2);
