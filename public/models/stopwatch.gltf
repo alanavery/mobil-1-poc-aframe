@@ -1,0 +1,307 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - ef4f41a6842c60acc27c15e21adfa2a5f9da2982",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 7072,
+            "type": "VEC3",
+            "max": [
+                0.031146999448537828,
+                0.015706999227404596,
+                0.04349949583411217
+            ],
+            "min": [
+                -0.031182000413537027,
+                0.011852999217808247,
+                -0.01882850006222725
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 7072,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 7072,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 10608,
+            "type": "SCALAR",
+            "max": [
+                7071.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 57448,
+            "type": "VEC3",
+            "max": [
+                0.03675900027155876,
+                0.012783999554812909,
+                0.04910149797797203
+            ],
+            "min": [
+                -0.03675900027155876,
+                0.0,
+                -0.04910149797797203
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 57448,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 57448,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 86172,
+            "type": "SCALAR",
+            "max": [
+                57447.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 84864,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 84864,
+            "byteLength": 84864,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 169728,
+            "byteLength": 56576,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 226304,
+            "byteLength": 42432,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 268736,
+            "byteLength": 689376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 958112,
+            "byteLength": 689376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1647488,
+            "byteLength": 459584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2107072,
+            "byteLength": 344688,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2451760,
+            "uri": "stopwatch_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "stopwatch_baseColor",
+            "uri": "stopwatch_images/stopwatch_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image_image",
+            "uri": "stopwatch_images/image_image.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "glass_Mat",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "stopwatch_Mat",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "stopwatch_glass",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "stopwatch",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5,
+                0.30000147223472597,
+                0.49214649200439455
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "translation": [
+                0.0,
+                0.04910147935152054,
+                -0.007853496819734574
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                1.0,
+                0.9999996423721314,
+                0.9999996423721314
+            ],
+            "name": "stopwatch"
+        },
+        {
+            "mesh": 0,
+            "name": "stopwatch_glass"
+        },
+        {
+            "mesh": 1,
+            "name": "stopwatch"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "stopwatch_Mat::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image_image",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}
